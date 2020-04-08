@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="inArr">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="strArr">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <array name="commanArr">
+        <item>@drawable/jub</item>
+        <item>str1</item>
+    </array>
+
+</resources>
