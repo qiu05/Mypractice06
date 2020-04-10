@@ -58,6 +58,7 @@ public class Ch6Activity1 extends AppCompatActivity {
         registerForContextMenu(linearLayout);
 
         XmlPullParser xmlPullParser=resources.getXml(R.xml.words);
+
         try {
             while (xmlPullParser.getEventType()!=XmlPullParser.END_DOCUMENT){
                 if(xmlPullParser.getEventType()==XmlPullParser.START_TAG){

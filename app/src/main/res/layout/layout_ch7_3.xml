@@ -8,4 +8,5 @@
         android:id="@+id/ch7_3_lv"
         android:layout_height="wrap_content"></ListView>
 
+
 </LinearLayout>

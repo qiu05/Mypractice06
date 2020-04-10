@@ -35,6 +35,7 @@ public class Ch7Activity3 extends AppCompatActivity {
         hashMap.put("price","80");
         hashMap.put("jub",R.drawable.jub);
         list.add(hashMap);
+
         //实例化适配器
         simpleAdapter=new SimpleAdapter(this,list,R.layout.layout_goods,new String[]{"name","price","jub"},new int[]{R.id.goods_price,R.id.goods_jub});
         //设置到listview

@@ -61,6 +61,7 @@ public class Ch7Activity1 extends AppCompatActivity {
         //设置到spinner中
         spinner.setAdapter(arrayAdapter);
         //处理事件响应
+        //
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -74,6 +75,7 @@ public class Ch7Activity1 extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
+
         });
     }
 }

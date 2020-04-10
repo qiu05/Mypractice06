@@ -69,6 +69,7 @@ public class Ch5Activity1 extends AppCompatActivity {
     }
     public void alert_dialog(View view){
         AlertDialog.Builder builder=new  AlertDialog.Builder(this);
+
         //在构造器中
         builder.setTitle("title");
         builder.setMessage("message");
