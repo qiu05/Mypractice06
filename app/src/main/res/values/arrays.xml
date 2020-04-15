@@ -6,13 +6,21 @@
         <item>5</item>
     </integer-array>
     <integer-array name="strArr">
+        <item>1</item>
+        <item>2</item>
         <item>3</item>
-        <item>4</item>
-        <item>5</item>
     </integer-array>
+    <string-array name="countries">
+        <item>Belgium</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>Spain</item>
+    </string-array>
     <array name="commanArr">
         <item>@drawable/jub</item>
-        <item>str1</item>
+        <item>str</item>
+        <item>1</item>
     </array>
 
 </resources>
